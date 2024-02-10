@@ -22,6 +22,8 @@ El proyecto se organiza de la siguiente manera:
 
 Una vez configuradas las variables de entorno, puedes ejecutar el DAG utilizando Airflow. Asegúrate de que el servicio de Airflow esté en funcionamiento y coloca el archivo del DAG en la carpeta dags/.
 El archivo .env deberá tener el siguiente formato:
+# ```python
+```python
     # .env
     POSTGRES_USER=ejemplo-user
     POSTGRES_PASSWORD=ejemplo-password
@@ -31,6 +33,8 @@ El archivo .env deberá tener el siguiente formato:
     EMAIL=ejemplo-email
     PASSWORD_EMAIL=ejemplo-password
     DESTINATARIO_EMAIL=ejemplo-destinatario-email
+```
+```
 
 ## Flujo de Trabajo
 
