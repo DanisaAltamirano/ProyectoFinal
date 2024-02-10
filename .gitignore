@@ -1,22 +1,3 @@
-echo "AppData/" >> .gitignore
-echo "Contacts/" >> .gitignore
-echo "Desktop/" >> .gitignore
-echo "Documents/" >> .gitignore
-echo "Downloads/" >> .gitignore
-echo "Favorites/" >> .gitignore
-echo "IntelGraphicsProfiles/" >> .gitignore
-echo "Links/" >> .gitignore
-echo "Music/" >> .gitignore
-echo "NTUSER.DAT*" >> .gitignore
-echo "OneDrive/" >> .gitignore
-echo "Pictures/" >> .gitignore
-echo "Saved Games/" >> .gitignore
-echo "Searches/" >> .gitignore
-echo "Videos/" >> .gitignore
-echo ".env" >> .gitignore
-echo "airflow.cfg" >> .gitignore
-echo ".vscode/" >> .gitignore
-echo "__pycache__/" >> .gitignore
-echo "logs/" >> .gitignore
-echo "plugins/" >> .gitignore
-echo "venv/" >> .gitignore
+# Ignorar el archivo .env
+.env
+airflow.cfg
